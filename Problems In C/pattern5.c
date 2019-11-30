@@ -1,0 +1,47 @@
+#include<stdio.h>
+int main()
+{
+    int line, col, N;
+    scanf("%d",&N);
+        for(line=N;line>0;printf("\n"),line--)
+    {
+        for(col=1;col<=line;col++)
+        {
+            printf("*");
+        }
+        for(col=1;col<=N-line;col++)
+        {
+            printf(" ");
+        }
+        for(col=1;col<=N-line;col++)
+        {
+            printf(" ");
+        }
+        for(col=1;col<=line;col++)
+        {
+            printf("*");
+        }
+    }
+
+    for(line=1;line<=N;printf("\n"),line++)
+    {
+        for(col=1;col<=line;col++)
+        {
+            printf("*");
+        }
+        for(col=1;col<=N-line;col++)
+        {
+            printf(" ");
+        }
+        for(col=1;col<=N-line;col++)
+        {
+            printf(" ");
+        }
+        for(col=1;col<=line;col++)
+        {
+            printf("*");
+        }
+    }
+
+    return 0;
+}
