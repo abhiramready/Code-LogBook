@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//using recursion
 void TOH(int n,int A,int B,int C)
 {
 	if(n>0)
@@ -9,7 +9,6 @@ void TOH(int n,int A,int B,int C)
 		TOH(n-1,B,A,C);
 	}
 }
-
 
 int main()
 {
