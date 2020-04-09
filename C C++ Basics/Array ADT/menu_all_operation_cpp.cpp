@@ -12,26 +12,27 @@ private:
 	
 	void swap(int *x,int *y);    
 	
-	public:    
+	public:   
+	//default constructor  
 	Array()    
 	{        
 	size=10;        
 	length=0;       
 	A=new int[size];    
 	}    
-	
+	//when we specify a specific size while initializing the object
 	Array(int sz)    
 	{        
 	size=sz;        
 	length=0;        
 	A=new int[size];    
 	}    
-	
+	//destructor
 	~Array()    
 	{        
 	delete []A;    
 	}    
-	
+	//member functions
 	void Display();    
 	void Append(int x);    
 	void Insert(int index,int x);    
@@ -54,7 +55,7 @@ private:
 	Array* Diff(Array arr2);    
 	Array* Inter(Array arr2); 
 }; 
-
+// :: is scope resolution operator used to define function outside the class
 void Array::Display() 
 {    
 	int i;    
@@ -190,17 +191,21 @@ float Array::Avg()
 void Array::Reverse() 
 {    
 	int *B;    
-	int i,j;        
+	int i,j;
+	//duplicate array        
 	B=(int *)malloc(length*sizeof(int));    
+	// i starts from last j from beginning
 	for(i=length-1,j=0;i>=0;i--,j++)        
 		B[j]=A[i];
+	//copy reversed array to original array
     for(i=0;i<length;i++)        
 		A[i]=B[i];    
 } 
 
 void Array::Reverse2() 
-{   
-	int i,j;    
+{   //second method for reversing 
+	int i,j;
+	//swapping till half    
 	for(i=0,j= length-1;i<j;i++,j--)    
 	{        
 		swap(& A[i],& A[j]);    
@@ -209,9 +214,11 @@ void Array::Reverse2()
 
 void Array::InsertSort(int x) 
 {    
-	int i= length-1;    
-	if( length== size)        
-		return;    
+	//inserting in a sorted array
+	int i= length-1;
+	//already full we can't insert    
+	if( length == size)        
+		return;    	
 	while(i>=0 &&  A[i]>x)    
 	{        
 		A[i+1]= A[i];        
@@ -233,30 +240,33 @@ int Array::isSorted()
 }
 
 void Array::Rearrange() 
-{    
+{   //rearragning the array seperate +ves and -ves 
 	int i,j;    
 	i=0;    
-	j= length-1;        
+	j=length-1;        
 	while(i<j)    
 	{        
-		while( A[i]<0)i++;       
-			while( A[j]>=0)j--;        
-				if(i<j)swap(& A[i],& A[j]);    
+		while(A[i]<0)i++;//if it's negative move next from front     
+			while( A[j]>=0)j--;//if it's positive come back to front        
+				if(i<j)swap(& A[i],& A[j]);//swap    
 	}  
 } 
 
 Array* Array::Merge(Array arr2) 
 {    
 	int i,j,k;    
-	i=j=k=0;        
+	i=j=k=0;
+	//merging two arrays in new third array        
 	Array *arr3=new Array(length+arr2.length);        
 	while(i<length && j<arr2.length)    
-	{        
+	{    
+	    //merging in ascending order
 		if(A[i]<arr2.A[j])            
 			arr3->A[k++]=A[i++];        
 		else            
 			arr3->A[k++]=arr2.A[j++];    
-	}    
+	}
+	//adding all remaining extra elements    
 	for(;i<length;i++)        
 		arr3->A[k++]=A[i];    
 	for(;j<arr2.length;j++)        
@@ -266,18 +276,18 @@ Array* Array::Merge(Array arr2)
 } 
 
 Array* Array::Union(Array arr2)
-{   
+{   //no duplicates in union
 	int i,j,k;    
 	i=j=k=0;        
 	Array *arr3=new Array(length+arr2.length);        
 	while(i<length && j<arr2.length)    
-	{        
+	{   //whichever is smallest is added      
 		if(A[i]<arr2.A[j])            
 			arr3->A[k++]=A[i++];        
 		else if(arr2.A[j]<A[i])            
 			arr3->A[k++]=arr2.A[j++];        
 		else        
-		{            
+		{   //if equal one is simply added         
 			arr3->A[k++]=A[i++];            
 			j++;        
 		}   
@@ -291,12 +301,12 @@ Array* Array::Union(Array arr2)
 }
 
 Array* Array::Inter(Array arr2) 
-{    
+{   //new array contains only matching elements 
 	int i,j,k;    
 	i=j=k=0;        
 	Array *arr3=new Array(length+arr2.length);        
 	while(i<length && j<arr2.length)    
-	{        
+	{   //both i and j are incremented till we meet a common number     
 		if(A[i]<arr2.A[j])
             i++;        
 		else if(arr2.A[j]<A[i])            
@@ -313,6 +323,7 @@ Array* Array::Inter(Array arr2)
 
 Array* Array::Diff(Array arr2) 
 {    
+	//finding difference a-b
 	int i,j,k;    
 	i=j=k=0;        
 	Array *arr3=new Array(length+arr2.length);        
@@ -323,7 +334,8 @@ Array* Array::Diff(Array arr2)
 		else if(arr2.A[j]<A[i])            
 			j++;        
 		else        
-		{            
+		{   
+		//present in both we skip them         
 			i++;            
 			j++;        
 		}    
@@ -351,7 +363,8 @@ int main()
 		cout<<"3. Search\n";        
 		cout<<"4. Sum\n";        
 		cout<<"5. Display\n";        
-		cout<<"6.Exit\n";                
+		cout<<"6. Append\n";
+		cout<<"7. Exit\n";
 		cout<<"enter you choice ";        
 		cin>>ch;                
 		switch(ch)        
@@ -376,9 +389,16 @@ int main()
 			case 4:cout<<"Sum is "<<arr1->Sum();                
 			break;            
 			
-			case 5:arr1->Display();                        
+			case 5:arr1->Display();   
+			break;
+			
+			case 6:cout<<"Enter element to Append : ";                
+			cin>>x;
+			arr1->Append(x);
+			break;  
+			                   
 			}    
-			}while(ch<6);    
+			}while(ch<7);    
 	return 0; 
 }
 	
