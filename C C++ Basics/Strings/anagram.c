@@ -11,8 +11,8 @@ int main()
 	
 	for(i-0;b[i]!='\0';i++)
 	{
-		h[a[i]-97]-=1;
-		if(h[a[i]-97]<0)
+		h[b[i]-97]-=1;
+		if(h[b[i]-97]<0)
 		{
 			printf("Not an Anagram");
 			break;
