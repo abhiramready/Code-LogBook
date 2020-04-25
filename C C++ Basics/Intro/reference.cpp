@@ -6,5 +6,6 @@ int main()
 	int &r=a;
 	cout<<r<<endl;
 	a++;
+	r++;
 	cout<<r;
 }

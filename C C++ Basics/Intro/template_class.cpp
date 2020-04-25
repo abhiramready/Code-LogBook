@@ -34,4 +34,5 @@ int main()
 	cout<<ar.add()<<endl;
 	Arithmatic<float>ar1(2.5,1.3);
 	cout<<ar1.add();
+	
 }
