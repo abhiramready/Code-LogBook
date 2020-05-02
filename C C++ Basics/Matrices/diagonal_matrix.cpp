@@ -65,7 +65,7 @@ int main()
 	int d;    
 	cout<<"Enter Dimensions";    
 	cin>>d;        
-	Diagonal dm(d);        
+	Diagonal dm(d);      
 	int x;    
 	cout<<"Enter All Elements";    
 	for(int i=1;i<=d;i++)    
@@ -75,7 +75,7 @@ int main()
 			cin>>x;            
 			dm.Set(i,j,x);        
 		}    
-	}        
+	}     
 	dm.Display();    
 	return 0; 
 }	

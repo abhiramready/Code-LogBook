@@ -23,7 +23,6 @@ public:
     void create();
 };
 
-
 void Diagonal::create()
 {
 	int x;
