@@ -15,13 +15,6 @@ void Display(struct Array arr)
 	printf("%d ",arr.A[i]);    
 } 
 
-void swap(int *x,int *y) 
-{     
-	int temp=*x;     
-	*x=*y;     
-	*y=temp; 
-}
-
 int BinarySearch(struct Array arr,int key) 
 {
     int l,mid,h;   
@@ -59,7 +52,7 @@ int RBinSearch(int a[],int l,int h,int key)
 int main() 
 {
     struct Array arr1={{2,3,9,16,18,21,28,32,35},10,9};    
-	printf("Seacrch 16 \nindex at %d",BinarySearch(arr1,16));    
+	printf("Search 16 \nindex at %d",BinarySearch(arr1,16));    
 	Display(arr1);    
 	return 0; 
 }

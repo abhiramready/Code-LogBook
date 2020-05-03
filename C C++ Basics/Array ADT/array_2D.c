@@ -15,7 +15,7 @@ int main()
 	}
 	
 	int *B[3];
-	//row in stacka and column in heap memory
+	//row in stack and column in heap memory
 	B[0]=(int*)malloc(4*sizeof(int));	
 	B[1]=(int*)malloc(4*sizeof(int));
 	B[2]=(int*)malloc(4*sizeof(int));

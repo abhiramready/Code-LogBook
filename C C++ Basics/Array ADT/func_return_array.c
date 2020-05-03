@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-int * fun(int n)
+int *fun(int n)
 {
 	int *p;
 	p=(int *)malloc(n*sizeof(int));

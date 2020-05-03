@@ -14,13 +14,6 @@ void Display(struct Array arr)
 	printf("%d ",arr.A[i]);    
 } 
 
-void swap(int *x,int *y) 
-{     
-	int temp=*x;     
-	*x=*y;     
-	*y=temp; 
-} 
-
 int Get(struct Array arr,int index) 
 {    
 	if(index>=0 && index<arr.length)        
@@ -79,10 +72,7 @@ int main()
 	Set(&arr1,0,15);
 	printf("\nMax %d",Max(arr1)); 
 	printf("\nMin %d",Min(arr1));
-
-	 
-
-	   
+	
 	Display(arr1);    
 	return 0; 
 }
