@@ -80,7 +80,7 @@ int sum(struct Node *p)
 }
 
 int Rsum(struct Node *p)
-{
+{	
 	if(p==NULL)
 		return 0;
 	return Rsum(p->next)+p->data;

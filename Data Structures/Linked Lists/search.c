@@ -28,6 +28,7 @@ void create(int a[],int n)
 
 void Display(struct Node *p)
 {
+	printf("\n");
 	while(p!=NULL)
 	{	
 		printf("%d ",p->data);
@@ -35,39 +36,35 @@ void Display(struct Node *p)
 	}	
 }
 
-void Max(struct Node *p)
+struct Node * LSearch(struct Node *p,int key)
 {
-	int max=0;
+	struct Node *q;
 	while(p!=NULL)
 	{
-		if(p->data>max)
-			max=p->data;
+		if(key==p->data)
+		{
+			q->next=p->next;
+			p->next=first;
+			first=p;
+			return p;
+		}
+		q=p;
 		p=p->next;
 	}
-	printf("\nMax value is %d",max);
+	return NULL;
 }
-
-int RMax(struct Node *p)
-{
-	int x=0;
-	if(p==0)
-		return 0;
-	x=RMax(p->next);
-	if(x>p->data)
-		return x;
-	else
-		return p->data;
-}
-
 
 int main()
 {
+	struct Node *t;
 	int a[]={2,4,8,10,15};
 	create(a,5);
 	Display(first);
-	Max(first);
-	//recursive
-	int x=RMax(first);
-	printf("\nRecursive Max %d",x);	
-	return 0;
+	t=LSearch(first,15);
+	if(t!=NULL)
+		printf("\nKey is found");
+	else
+		printf("\nKey not found");
+	Display(first);	
+	return 0; 
 }
