@@ -2,23 +2,25 @@
 using namespace std;
 class Node
 {
-public:
- int data;
- Node *next;
+	public:
+		int data;
+ 		Node *next;
 };
+
 class LinkedList
 {
-private:
- Node *first;
-public:
- LinkedList(){first=NULL;}
- LinkedList(int A[],int n);
- ~LinkedList();
+	private:
+ 		Node *first;
+	public:
+ 		LinkedList(){first=NULL;}
+ 		LinkedList(int A[],int n);
+ 		~LinkedList();
 
  void Display();
  void Insert(int index,int x);
  int Delete(int index);
  int Length();
+ 
 };
 LinkedList::LinkedList(int A[],int n)
 {
@@ -115,7 +117,7 @@ int LinkedList::Delete(int index)
  for(int i=0;i<index-1;i++)
  {
  q=p;
- p=p->next;
+ p=p->next;2
  }
  q->next=p->next;
  x=p->data;
