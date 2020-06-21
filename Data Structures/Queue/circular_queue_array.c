@@ -1,5 +1,6 @@
 #include<stdio.h>
-#inlude<stdlib.h>
+#include<stdlib.h>
+
 struct Queue
 {
 	int size;
@@ -11,17 +12,17 @@ struct Queue
 void create(struct Queue *q,int size)
 {
 	q->size=size;
-	q->front=q->rear=-1;
+	q->front=q->rear=0;
 	q->Q=(int *)malloc(q->size*sizeof(int));
 }
 
 void enqueue(struct Queue *q,int x)
 {
-	if(q->rear==q->size-1)
+	if((q->rear+1)%q->size==q->front)
 		printf("Queue is Full.\n");
 	else
 	{
-		q->rear++;
+		q->rear=(q->rear+1)%q->size;
 		q->Q[q->rear]=x;
 	}
 }
@@ -29,12 +30,11 @@ void enqueue(struct Queue *q,int x)
 int dequeue(struct Queue *q)
 {
 	int x=-1;
-	
 	if(q->front==q->rear)
 		printf("Queue is Empty\n");
 	else
 	{
-		q->front++;
+		q->front=(q->front+1)%q->size;
 		x=q->Q[q->front];
 	}
 	return x;
@@ -43,13 +43,15 @@ int dequeue(struct Queue *q)
 
 void Display(struct Queue q)
 {
-	int i;
+	int i=q.front+1;
 	
-	for(i=q.front+1;i<=q.rear;i++)
-		printf("%d ",q.Q[i]);
-	printf("\n");	
+do
+{		
+	printf("%d ",q.Q[i]);
+	i=(i+1)%q.size;
+}while(i!=(q.rear+1)%q.size);
+printf("\n");
 }
-
 int main()
 {	
 	struct Queue q;
@@ -59,12 +61,12 @@ int main()
 	enqueue(&q,200);
 	enqueue(&q,300);
 	enqueue(&q,400);
-	enqueue(&q,500);
+	
 	
 	Display(q);
 	
 	printf("%d is deleted\n",dequeue(&q));
-	
+	enqueue(&q,500);
 	Display(q);	
 	
 	return 0;
