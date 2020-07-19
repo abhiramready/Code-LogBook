@@ -1,11 +1,5 @@
 #include <stdio.h>
 #include<stdlib.h>
-void swap(int *x,int *y)
-{
- int temp=*x;
- *x=*y;
- *y=temp;
-}
 void Merge(int A[],int l,int mid,int h)
 {
  int i=l,j=mid+1,k=l;
