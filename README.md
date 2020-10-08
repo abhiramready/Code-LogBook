@@ -3,6 +3,7 @@
 ***
 
 <!-- BLOG-POST-LIST:START -->
+- [Single Number in Array LeetCode C++](https://matrixread.com/single-number-in-array-leetcode-c/)
 - [Program to Validate Username](https://matrixread.com/program-to-validate-username/)
 - [Find Missing Number in Array LeetCode](https://matrixread.com/find-missing-number-in-array-leetcode/)
 - [Remove Duplicates from an Unsorted Array](https://matrixread.com/remove-duplicates-from-an-unsorted-array/)
