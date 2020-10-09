@@ -3,6 +3,7 @@
 ***
 
 <!-- BLOG-POST-LIST:START -->
+- [Squares of a Sorted Array LeetCode O(N)](https://matrixread.com/squares-of-a-sorted-array-leetcode-on/)
 - [Single Number in Array LeetCode C++](https://matrixread.com/single-number-in-array-leetcode-c/)
 - [Program to Validate Username](https://matrixread.com/program-to-validate-username/)
 - [Find Missing Number in Array LeetCode](https://matrixread.com/find-missing-number-in-array-leetcode/)
