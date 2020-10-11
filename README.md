@@ -3,6 +3,8 @@
 ***
 
 <!-- BLOG-POST-LIST:START -->
+- [Template Functions in C++](https://matrixread.com/template-functions-in-c/)
+- [Two Sum LeetCode Optimized](https://matrixread.com/two-sum-leetcode-optimized/)
 - [Squares of a Sorted Array LeetCode O(N)](https://matrixread.com/squares-of-a-sorted-array-leetcode-on/)
 - [Single Number in Array LeetCode C++](https://matrixread.com/single-number-in-array-leetcode-c/)
 - [Program to Validate Username](https://matrixread.com/program-to-validate-username/)
