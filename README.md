@@ -3,6 +3,8 @@
 ***
 
 <!-- BLOG-POST-LIST:START -->
+- [Sum of Numbers in a String](https://matrixread.com/sum-of-numbers-in-a-string/)
+- [Linear Search Algorithm](https://matrixread.com/linear-search-algorithm/)
 - [Bubble Sort Algorithm](https://matrixread.com/bubble-sort-algorithm/)
 - [Template Functions in C++](https://matrixread.com/template-functions-in-c/)
 - [Two Sum LeetCode Optimized](https://matrixread.com/two-sum-leetcode-optimized/)
