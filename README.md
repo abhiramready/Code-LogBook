@@ -3,6 +3,7 @@
 ***
 
 <!-- BLOG-POST-LIST:START -->
+- [Maximum Occurring Character in a String](https://matrixread.com/maximum-occurring-character-in-a-string/)
 - [Sum of Numbers in a String](https://matrixread.com/sum-of-numbers-in-a-string/)
 - [Linear Search Algorithm](https://matrixread.com/linear-search-algorithm/)
 - [Bubble Sort Algorithm](https://matrixread.com/bubble-sort-algorithm/)
