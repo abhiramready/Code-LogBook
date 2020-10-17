@@ -3,6 +3,7 @@
 ***
 
 <!-- BLOG-POST-LIST:START -->
+- [Fibonacci Series – Iterative vs Recursive](https://matrixread.com/fibonacci-series-iterative-vs-recursive/)
 - [Maximum Occurring Character in a String](https://matrixread.com/maximum-occurring-character-in-a-string/)
 - [Sum of Numbers in a String](https://matrixread.com/sum-of-numbers-in-a-string/)
 - [Linear Search Algorithm](https://matrixread.com/linear-search-algorithm/)
