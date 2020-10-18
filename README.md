@@ -3,6 +3,8 @@
 ***
 
 <!-- BLOG-POST-LIST:START -->
+- [Binary Search Algorithm](https://matrixread.com/binary-search-algorithm/)
+- [Reverse a Linked List](https://matrixread.com/reverse-a-linked-list/)
 - [Fibonacci Series – Iterative vs Recursive](https://matrixread.com/fibonacci-series-iterative-vs-recursive/)
 - [Maximum Occurring Character in a String](https://matrixread.com/maximum-occurring-character-in-a-string/)
 - [Sum of Numbers in a String](https://matrixread.com/sum-of-numbers-in-a-string/)
