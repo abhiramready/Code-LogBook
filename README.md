@@ -1,5 +1,5 @@
 # #30DaysofCompetetive Coding
- <strong>✅ Solve atleast one Problem and write a blog post on the approach from LeetCode for 30 Days </strong>
+ <strong>✅ Solve atleast one Problem and write a blog post on the approach [1st October 2020 - 30th October 2020]</strong>
 ***
 
 <!-- BLOG-POST-LIST:START -->
