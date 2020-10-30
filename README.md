@@ -2,7 +2,16 @@
  <strong>✅ Solve atleast one Problem and write a blog post on the approach [ 1st October 2020 - 30th October 2020 ]</strong>
 ***
 
-<!-- BLOG-POST-LIST:START -->
+- [Direct & Indirect Recursion](https://matrixread.com/direct-indirect-recursion/)
+- [Even Odd Separation O(N) Single Iteration](https://matrixread.com/even-odd-separation-on-single-iteration/)
+- [Tree Traversals – Preorder, Inorder, Postorder](https://matrixread.com/tree-traversals-preorder-inorder-postorder/)
+- [Program to Evaluate Postfix Expression – LeetCode](https://matrixread.com/program-to-evaluate-postfix-expression-leetcode/)
+- [Balanced Parenthesis Program](https://matrixread.com/balanced-parenthesis-program/)
+- [How the bits/stdc++ .h works in C++](https://matrixread.com/how-the-bits-stdc-h-works-in-c/)
+- [Separate 0s and 1s – O(N) Single Iteration](https://matrixread.com/separate-0s-and-1s-on-single-iteration/)
+- [Perform Set Operations on Arrays](https://matrixread.com/perform-set-operations-on-arrays/)
+- [Remove Duplicates from a Sorted Linked List](https://matrixread.com/remove-duplicates-from-a-sorted-linked-list/)
+- [Count the Duplicates of Array O(N)](https://matrixread.com/count-the-duplicates-of-array-on/)
 - [Anagram in Strings](https://matrixread.com/anagram-in-strings/)
 - [Target Sum – Single Iteration O(N)](https://matrixread.com/target-sum-single-iteration/)
 - [Binary Search Algorithm](https://matrixread.com/binary-search-algorithm/)
@@ -23,4 +32,3 @@
 - [Queue program in C++ using Array and STL](https://matrixread.com/queue-program-in-c-using-array-and-stl/)
 - [Contains Duplicate LeetCode C++](https://matrixread.com/contains-duplicate-leetcode-c/)
 - [Stack Program in C++ using Array and STL](https://matrixread.com/stack-program-in-c-using-array-and-stl/)
-<!-- BLOG-POST-LIST:END -->
