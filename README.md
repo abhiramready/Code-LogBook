@@ -2,6 +2,7 @@
  <strong>✅ Solve atleast one Problem and write a blog post on the approach [ 1st October 2020 - 30th October 2020 ]</strong>
 ***
 
+- [#30DaysofCode](https://matrixread.com/30daysofcode/)
 - [Direct & Indirect Recursion](https://matrixread.com/direct-indirect-recursion/)
 - [Even Odd Separation O(N) Single Iteration](https://matrixread.com/even-odd-separation-on-single-iteration/)
 - [Tree Traversals – Preorder, Inorder, Postorder](https://matrixread.com/tree-traversals-preorder-inorder-postorder/)
