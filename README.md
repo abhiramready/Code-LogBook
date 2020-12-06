@@ -1,7 +1,5 @@
 # #30DaysofCompetetive Coding
- <strong>✅ Solve atleast one Problem and write a blog post on the approach [ 1st October 2020 - 30th October 2020 ]</strong>
-***
-
+ <strong>✅Objective:</strong> Solve one Problem daily and write a blog post on the solution approach [October-1 to October-30-2020]
 - [#30DaysofCode](https://matrixread.com/30daysofcode/)
 - [Direct & Indirect Recursion](https://matrixread.com/direct-indirect-recursion/)
 - [Even Odd Separation O(N) Single Iteration](https://matrixread.com/even-odd-separation-on-single-iteration/)
