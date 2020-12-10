@@ -1,0 +1,602 @@
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$ git ---version4
+unknown option: ---version4
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$ git ---version
+unknown option: ---version
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$ git --version
+git version 2.21.0.windows.1
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$  git config --global user.name "Abhiram Reddy"
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$  git config --global user.email "email@email.com"
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+credential.helper=manager
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+user.name=Abhiram Reddy
+user.email=abhiramreddy31@gmail.com
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$ git help config
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$ git config --help
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+'Google Drive'/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{8cd012c1-77e9-11e9-a4e4-d1dfffdbf4a9}.TM.blf
+ NTUSER.DAT{8cd012c1-77e9-11e9-a4e4-d1dfffdbf4a9}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{8cd012c1-77e9-11e9-a4e4-d1dfffdbf4a9}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ ScStore/
+ Searches/
+ SendTo@
+'Start Menu'@
+ StudioProjects/
+ Templates@
+ Videos/
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$ cd My Documnets
+bash: cd: too many arguments
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$ cd My Documents/
+bash: cd: too many arguments
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~
+$ cd Videos/
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Videos
+$ git init
+Initialized empty Git repository in C:/Users/DELL/Videos/.git/
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Videos (master)
+$ ls -la
+total 21
+drwxr-xr-x 1 DELL 197121   0 May 18 11:47  ./
+drwxr-xr-x 1 DELL 197121   0 May 18 11:41  ../
+drwxr-xr-x 1 DELL 197121   0 May 18 11:47  .git/
+drwxr-xr-x 1 DELL 197121   0 May  2 16:10 '4K Video Downloader'/
+drwxr-xr-x 1 DELL 197121   0 Sep 16  2018  Captures/
+-rw-r--r-- 1 DELL 197121 504 May 16 22:19  desktop.ini
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Videos (master)
+$ rm -rf .git
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Videos
+$ ls
+'4K Video Downloader'/   Captures/   desktop.ini
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Videos
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Videos
+$ cd /c/Users/DELL/Documents/GitHub/gitsample
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample
+$ git init
+Initialized empty Git repository in C:/Users/DELL/Documents/GitHub/gitsample/.git/
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        PREDICT.py
+        autosub.py
+        opensite.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ touch .gitignore
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        PREDICT.py
+        autosub.py
+        opensite.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git add .gitignore
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        PREDICT.py
+        autosub.py
+        opensite.py
+
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git add -A
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   PREDICT.py
+        new file:   autosub.py
+        new file:   opensite.py
+
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git reset
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        PREDICT.py
+        autosub.py
+        opensite.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git add -A
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   PREDICT.py
+        new file:   autosub.py
+        new file:   opensite.py
+
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git commit -m "sample git commit using commit"
+[master (root-commit) dc0e71d] sample git commit using commit
+ 4 files changed, 107 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 PREDICT.py
+ create mode 100644 autosub.py
+ create mode 100644 opensite.py
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$  git log
+commit dc0e71d67258722c004ce22ebab49093b65e57c0 (HEAD -> master)
+Author: Abhiram Reddy <abhiramreddy31@gmail.com>
+Date:   Sat May 18 12:06:35 2019 +0530
+
+    sample git commit using commit
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ cd..
+bash: cd..: command not found
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/gitsample (master)
+$ cd ..
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub
+$ ls
+gitsample/  Usher-Android/
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub
+$ git clone https://github.com/AbhiramReddyD/abhiramreddyd.github.io
+Cloning into 'abhiramreddyd.github.io'...
+remote: Enumerating objects: 156, done.
+remote: Counting objects: 100% (156/156), done.
+remote: Compressing objects: 100% (126/126), done.
+Receiving objects:  36% (57/15remote: Total 156 (delta 68), reused 84 (delta 25), pack-reused 0
+Receiving objects: 100% (156/156), 30.84 KiB | 1.06 MiB/s, done.
+Resolving deltas: 100% (68/68), done.
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub
+$ ls -la
+total 20
+drwxr-xr-x 1 DELL 197121 0 May 18 12:11 ./
+drwxr-xr-x 1 DELL 197121 0 May 17 17:24 ../
+drwxr-xr-x 1 DELL 197121 0 May 18 12:11 abhiramreddyd.github.io/
+drwxr-xr-x 1 DELL 197121 0 May 18 11:52 gitsample/
+drwxr-xr-x 1 DELL 197121 0 May 18 10:25 Usher-Android/
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub
+$ git branch  -a
+fatal: not a git repository (or any of the parent directories): .git
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub
+$ l
+bash: l: command not found
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub
+$ ls
+abhiramreddyd.github.io/  gitsample/  Usher-Android/
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub
+$ cd abhiramreddyd.github.io/
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch  -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git diff
+diff --git a/IMG/instagram.png b/IMG/instagram.png
+deleted file mode 100644
+index f0967d4..0000000
+Binary files a/IMG/instagram.png and /dev/null differ
+diff --git a/contact.html b/contact.html
+index 70a4ab5..cf92da6 100644
+--- a/contact.html
++++ b/contact.html
+@@ -31,7 +31,7 @@
+                                <p>Abhiram Reddy Duggempudi</p>
+                        </div>
+                        <div class="con">
+-                               <img src="IMG/instagram.png">
++                               <img src="IMG/insta.png">
+                                <p>instagram/abhirameminem</p>
+                        </div>
+                </div>
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    IMG/instagram.png
+        modified:   contact.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        IMG/insta.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git add -A
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        renamed:    IMG/instagram.png -> IMG/insta.png
+        modified:   contact.html
+
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git commit -m "image rename"
+[master 8fd35ec] image rename
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename IMG/{instagram.png => insta.png} (100%)
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git pull origin master
+From https://github.com/AbhiramReddyD/abhiramreddyd.github.io
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 356 bytes | 356.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/AbhiramReddyD/abhiramreddyd.github.io
+   be39d48..8fd35ec  master -> master
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch newone
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch
+* master
+  newone
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git checkout newone
+Switched to branch 'newone'
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (newone)
+$ git status
+On branch newone
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   blog.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (newone)
+$ git add -A
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (newone)
+$ git commit -m "change matter"
+[newone 7dfcc6d] change matter
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (newone)
+$ git push -u origin newone
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 313 bytes | 156.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'newone' on GitHub by visiting:
+remote:      https://github.com/AbhiramReddyD/abhiramreddyd.github.io/pull/new/newone
+remote:
+To https://github.com/AbhiramReddyD/abhiramreddyd.github.io
+ * [new branch]      newone -> newone
+Branch 'newone' set up to track remote branch 'newone' from 'origin'.
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (newone)
+$ git branch -a
+  master
+* newone
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/newone
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (newone)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch --merge
+* master
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git merge newone
+Updating 8fd35ec..7dfcc6d
+Fast-forward
+ blog.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch -merged
+error: did you mean `--merged` (with two dashes ?)
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch --merged
+* master
+  newone
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git push origin master
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/AbhiramReddyD/abhiramreddyd.github.io
+   8fd35ec..7dfcc6d  master -> master
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch --merged
+* master
+  newone
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch -d newone
+Deleted branch newone (was 7dfcc6d).
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git brnach merge -a
+
+
+.
+
+/
+git: 'brnach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ .
+bash: .: filename argument required
+.: usage: . filename [arguments]
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ /
+bash: /: Is a directory
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch merge -a
+fatal: -a and -r options to 'git branch' do not make sense with a branch name
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/newone
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git push origin --dlete newone
+error: unknown option `dlete'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=(check|on-demand|no)]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git push origin --delete newone
+To https://github.com/AbhiramReddyD/abhiramreddyd.github.io
+ - [deleted]         newone
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+
+DELL@DESKTOP-CUCR3FC MINGW64 ~/Documents/GitHub/abhiramreddyd.github.io (master)
+$
