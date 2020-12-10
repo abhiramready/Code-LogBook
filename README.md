@@ -8,6 +8,6 @@ Starting from scratch and very basics, trying out new things and learing them in
 	Useful Resources
 </h3>
 
-✅ [Git Command Essentials](https://github.com/AbhiramReddyD/Code-LogBook/tree/master/Git%20Commands)
+✅ [Git Command Essentials](https://github.com/abhiramready/Code-LogBook/blob/master/Markdown/GIT_Commands.md)
 
-📜 [Basic Command Line in 5 min](https://github.com/AbhiramReddyD/Code-LogBook/tree/master/Command%20Line)
+✅ [#30DaysOfProblemSolving](https://github.com/abhiramready/Code-LogBook/blob/master/Markdown/30DaysOfCode.md)
