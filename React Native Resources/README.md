@@ -60,4 +60,7 @@
 
 - [https://oblador.github.io/react-native-vector-icons/](https://oblador.github.io/react-native-vector-icons/)
 
+## Other
+- [Redux Persist](https://itnext.io/react-native-why-you-should-be-using-redux-persist-8ad1d68fa48b)
+
 ***
