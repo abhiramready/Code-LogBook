@@ -6,8 +6,8 @@ Starting from scratch, trying out new things, and learning stuff  in a short spa
 
 ### 📌 Summary 
 
-✅ [Git Command Essentials](https://github.com/abhiramready/Code-LogBook/blob/master/Markdown/GIT_Commands.md)
+✅ [Git Command Essentials](https://github.com/abhiramready/Code-LogBook/blob/master/Markdown%20Notes/GIT_Commands.md)
 
-✅ [#30DaysOfProblemSolving](https://github.com/abhiramready/Code-LogBook/blob/master/Markdown/30DaysOfCode.md)
+✅ [#30DaysOfProblemSolving](https://github.com/abhiramready/Code-LogBook/blob/master/Bookmarks/30DaysOfCode.md)
 
-✅ [React Native Resources](https://github.com/abhiramready/Code-LogBook/tree/master/React%20Native%20Resources)
+✅ [React Native Resources](https://github.com/abhiramready/Code-LogBook/blob/master/Bookmarks/ReactNative.md)
