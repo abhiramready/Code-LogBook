@@ -1,4 +1,4 @@
-# React Native Resources ⚛
+# ⚛ React Native Resources
 
 ## Project Commands
 
