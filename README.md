@@ -14,4 +14,4 @@ Dev Notes and Code Snippets
 ### [📝 Notes](https://github.com/abhiramready/Code-LogBook/tree/master/Notes)
 
 * [🖱️Git Commands](https://github.com/abhiramready/Code-LogBook/blob/master/Notes/GIT_Commands.md)
-* 
+* [🌐 HTML Notes](https://github.com/abhiramready/Code-LogBook/tree/master/Notes/HTML%20Notes)
