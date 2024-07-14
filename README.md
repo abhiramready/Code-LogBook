@@ -1,10 +1,17 @@
-<h1 align="center">
-	Code👨‍💻 LogBook📗
-</h1>
+<h1 align="center">Code👨‍💻 LogBook📗</h1>
 
-Dev Notes, Snippets of Code and Bookmarks
+Dev Notes and Code Snippets
 
-### 📌 Table of Contents 
-* [Git Command Essentials](https://github.com/abhiramready/Code-LogBook/blob/master/Markdown%20Notes/GIT_Commands.md)
-* [#30DaysOfProblemSolving](https://github.com/abhiramready/Code-LogBook/blob/master/Bookmarks/30DaysOfCode.md)
-* [React Native Resources](https://github.com/abhiramready/Code-LogBook/blob/master/Bookmarks/ReactNative.md)
+## 📌 Table of Contents
+
+### [📚 Bookmarks](https://github.com/abhiramready/Code-LogBook/tree/master/Bookmarks)
+
+* [🔖 Random Code Bookmarks](https://github.com/abhiramready/Code-LogBook/blob/master/Bookmarks/RandomCodeBookamrks.md)
+* [⚛ React Native Resources](https://github.com/abhiramready/Code-LogBook/blob/master/Bookmarks/ReactNative.md)
+
+### [💾 C++ DSA Code Snippets](https://github.com/abhiramready/Code-LogBook/tree/master/C%2B%2B%20DSA%20Code%20Snippets)
+
+### [📝 Notes](https://github.com/abhiramready/Code-LogBook/tree/master/Notes)
+
+* [🖱️Git Commands](https://github.com/abhiramready/Code-LogBook/blob/master/Notes/GIT_Commands.md)
+* 
