@@ -1,4 +1,4 @@
-# git command essetials
+# 🖱️Git Commands
 
 <pre>git init                                                           intilialize</pre>
 <pre>git add file_name                                                  add a new file to your repository</pre>
