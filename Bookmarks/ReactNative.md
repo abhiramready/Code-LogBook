@@ -1,7 +1,5 @@
 # React Native Resources ⚛
 
-***
-
 ## Project Commands
 
 - npx react-native init MyApp --template react-native-template-typescript
@@ -62,5 +60,3 @@
 
 ## Other
 - [Redux Persist](https://itnext.io/react-native-why-you-should-be-using-redux-persist-8ad1d68fa48b)
-
-***
