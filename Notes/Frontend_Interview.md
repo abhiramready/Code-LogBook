@@ -1,32 +1,41 @@
 # 💻 Frontend Interview
 
-## ReactJS Questions
+## ⚛️ ReactJS Questions
 - React Life Cycle
+- Avoid Prop Drilling
 - Function vs Classes
 - Examples of Functions
-- What are keys, how they are useful
-- Avoid Prop Drilling
-- Context API
+- Context API, useContext
+- What are keys, and how are they useful
 - Redux
+- Redux Toolkit
 - State management
 - Dispatch vs Selectors
 - Store & States: how to retrieve states
-- Redux Toolkit
 
-## JavaScript
-- SetInterval vs SetTimeout
-- Map Libraries, Chart Libraries work experience
-- Page -> Container -> Content: Placement of content; what is the best approach
-- Flex properties
-- Grid Properties
+## 🚀 JavaScript
+- Promises
+- Closures
 - Map vs ForEach
 - What is hoisting
 - Cloning of objects
-- Higher-order Functions
 - Window vs Document
+- Higher-order Functions
 - Undefined vs not defined
-- Promises
-- Browser Debugger Tools
-- What is Box Model
+- SetInterval vs SetTimeout
+- Map Libraries, Chart Libraries work experience
 - Test cases, Unit Test cases, React-specific libraries
+
+## 🌻 CSS
+- Box Model
+- CSS Positions
+- Flex properties
+- Grid Properties
+
+## 🔨 Other
 - Git commands
+- Mark & Sweep
+- Browser Debugger Tools
+- Inlining, Inline caching
+- Page -> Container -> Content: Placement of content; what is the best approach
+
