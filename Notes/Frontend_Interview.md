@@ -3,7 +3,7 @@
 ## 🔗 Related Links
 - [A Job switch plan that actually works!!](https://medium.com/@amanshri.nitrr/a-job-switch-plan-that-actually-works-e09701c26d88)
 - [Front End Interview Handbook](https://www.frontendinterviewhandbook.com/)
-- [The greatfrontend](https://www.greatfrontend.com/)
+- [The greatfrontend interview questions](https://www.greatfrontend.com/)
 - []()
 
 ## ⚛️ ReactJS Questions
