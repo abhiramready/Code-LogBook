@@ -4,6 +4,8 @@
 - [A Job switch plan that actually works!!](https://medium.com/@amanshri.nitrr/a-job-switch-plan-that-actually-works-e09701c26d88)
 - [Front End Interview Handbook](https://www.frontendinterviewhandbook.com/)
 - [The greatfrontend interview questions](https://www.greatfrontend.com/)
+- [JavaScript Code Challenges](https://jscodechallenges.vercel.app/)
+- []()
 - []()
 
 ## ⚛️ ReactJS Questions
