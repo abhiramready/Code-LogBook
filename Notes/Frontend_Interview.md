@@ -5,8 +5,6 @@
 - [Front End Interview Handbook](https://www.frontendinterviewhandbook.com/)
 - [The greatfrontend interview questions](https://www.greatfrontend.com/)
 - [JavaScript Code Challenges](https://jscodechallenges.vercel.app/)
-- []()
-- []()
 
 ## ⚛️ ReactJS Questions
 - React Life Cycle
